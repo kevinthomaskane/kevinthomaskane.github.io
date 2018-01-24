@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>About Kevin</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://use.fontawesome.com/e3eb1e0702.js"></script>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    
+    <link rel="stylesheet" type="text/css" media="screen" href="profile.css" />
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <div class="container">
+
+
+        <nav class="blue lighten-2">
+            <div class="nav-wrapper">
+                <a href="index.html" class="brand-logo">Kevin Kane</a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li>
+                        <a href="about.html" class="about">About</a>
+                    </li>
+                    <li>
+                            <a class="modal-trigger" href="#modal1">Contact</a>
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <h4>How to find me...</h4>
+      <ul>
+          <li><i class="fa fa-envelope" aria-hidden="true"></i> kevinthomaskane@gmail.com</li>
+          <li><i class="fa fa-linkedin-square" aria-hidden="true"></i> <a href="https://www.linkedin.com/in/kevinthomaskane/">LinkedIn</a></li>
+      </ul>
+    </div>
+    <div class="modal-footer">
+      <a href="#modal1" class="modal-action modal-close waves-effect waves-green btn-flat">Got it!</a>
+    </div>
+  </div>
+
+        <div class="card" id="about-pic">
+            <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="kevinprofilepic.jpg">
+            </div>
+            <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">About Me
+                    <i class="material-icons right">more_vert</i>
+                </span>
+
+            </div>
+            <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">My Story
+                    <i class="material-icons right">close</i>
+                </span>
+                <p>After studying Marketing and working in sales for the first couple years after graduating from Virginia Tech,
+                    I decided that I would make a career change and pursue web development. I've always been intrigued by
+                    UI/UX and the functionality of websites. I started studying website development on my own towards the
+                    end of 2016 and have never looked back. Since then, I have completed a front-end bootcamp offered by
+                    Beach Coders, and a full-stack development bootcamp through UCLA.</p>
+                <br>
+                <ul class="collapsible" data-collapsible="accordion">
+                    <li>
+                        <div class="collapsible-header">
+                            <i class="material-icons">mouse</i>
+                            My Skills
+
+                        </div>
+                        <div class="collapsible-body">
+                            <ul class="collection with-header">
+
+                                <li class="collection-item">XHTML</li>
+                                <li class="collection-item">CSS</li>
+                                <li class="collection-item">Materialize</li>
+                                <li class="collection-item">Bootstrap</li>
+                                <li class="collection-item">JavaScript</li>
+                                <li class="collection-item">JSON</li>
+
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+
+
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous">
+        </script>
+    <script>
+        $(document).ready(function(){
+        $("p").hover(function () {
+            $(this).addClass("background-li");
+        })
+        $("p").mouseleave(function () {
+            $(this).removeClass("background-li");
+        })
+        $(".collection-item").hover(function () {
+            $(this).addClass("background-li");
+        })
+        $(".collection-item").mouseleave(function () {
+            $(this).removeClass("background-li");
+        })
+        $('.modal').modal();
+
+
+        });
+    </script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+</body>
+
+</html>

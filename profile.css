@@ -1,0 +1,77 @@
+.brand-logo{
+    margin-left: 2%;
+    font-family: 'Cairo', sans-serif;
+    
+}
+
+h4{
+    font-family: "adobe-caslon-pro",serif;
+    font-style: italic;
+    margin-right: 10%;
+    margin-left: 10%;
+    text-align: center;
+    color: #616161;
+    
+}
+
+#about-pic{
+    width: 100%;
+    margin: 0 auto;
+    
+    /* margin-top: */
+    
+}
+
+.background-li {
+    background-color: #e3f2fd !important;
+}
+
+.modal-content {
+    text-align: center;
+}
+
+.modal {
+    background-color: #e3f2fd !important;
+    width: 30%;
+    
+}
+
+li {
+    padding-bottom: 10px;
+}
+
+hr {
+    /* margin-top: 5%; */
+    margin-bottom: 3%;
+}
+
+#header-text{
+    font-family: 'Supermercado One', cursive;
+    text-align: center;
+
+}
+
+#my-bio {
+    font-family: 'Josefin Sans', sans-serif;
+   padding-top: 2px;
+   padding-bottom: 2px;
+   font-size: 20px;
+}
+
+.carousel .carousel-item img{
+    /* display: none; */
+    width: 200px;
+    height: 200px;
+    /* position: absolute;
+    top: 0;
+    left: 0; */
+}
+
+.carousel{
+    width: 100%;
+}
+
+footer{
+    padding-bottom: 20px;
+    background-color: black;
+}
