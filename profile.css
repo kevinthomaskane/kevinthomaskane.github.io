@@ -45,6 +45,10 @@ hr {
     margin-bottom: 3%;
 }
 
+#skills-line{
+    margin-bottom: 0;
+}
+
 #header-text{
     font-family: 'Supermercado One', cursive;
     text-align: center;
