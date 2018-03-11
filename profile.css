@@ -9,6 +9,23 @@
     height: 300px;
 }
 
+.collection img{
+    height: 80px;
+    width: 110px;
+    padding: 10px;
+}
+.collection{
+    background-color: white;
+    border: none;
+}
+
+
+
+.modal-content{
+    background-color: white;
+    border: none;
+}
+
 h4{
     font-family: "adobe-caslon-pro",serif;
     font-style: italic;

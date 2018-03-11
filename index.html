@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Kevin Kane</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:100" rel="stylesheet">
@@ -57,10 +58,59 @@
         </div>
     </div>
     <div class="container">
-        <h3 id="header-text">My Skills</h3>
+        <h3 id="header-text">My Skills
+            <a href="#">
+                <i class="fas fa-info-circle modal-trigger" href="#modal1"></i>
+            </a>
+        </h3>
+        <!-- Modal Trigger -->
+        <!-- <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Modal</a> -->
+
+        <!-- Modal Structure -->
+        <div id="modal1" class="modal bottom-sheet">
+            <div class="modal-content">
+                <div class="collection">
+                    <a href="#three!">
+                        <img src="images/javascript.png">
+                    </a>
+                    <a href="#one!">
+                        <a href="#three!">
+                            <img src="images/node.svg.png">
+                        </a>
+                        <img src="images/html.jpg">
+                    </a>
+                    <a href="#two!">
+                        <img src="images/css.svg">
+                    </a>
+                    <a href="#four!">
+                            <img src="images/sql.png">
+                        </a>
+                        <a href="#four!">
+                                <img src="images/express.png">
+                            </a>
+
+                    <a href="#four!">
+                        <img src="images/jquery.png">
+                    </a>
+                    <a href="#four!">
+                            <img src="images/mongo.png">
+                        </a>
+                        <a href="#four!">
+                                <img src="images/react.png">
+                            </a>
+                    <a href="#five!">
+                        <img src="images/Materialize.png">
+                    </a>
+                    <a href="#five!">
+                        <img src="images/bootstrap.png">
+                    </a>
+                </div>
+            </div>
+        </div>
         <hr id="skills-line">
 
         <div class="carousel">
+                
             <a class="carousel-item" href="#one!">
                 <img src="images/html.jpg">
             </a>
@@ -70,6 +120,21 @@
             <a class="carousel-item" href="#three!">
                 <img src="images/javascript.png">
             </a>
+            <a class="carousel-item" href="#three!">
+                    <img src="images/react.png">
+                </a>
+            <a class="carousel-item" href="#one!">
+                    <img src="images/node.svg.png">
+                </a>
+                <a class="carousel-item" href="#one!">
+                        <img src="images/sql.png">
+                    </a>
+                    <a class="carousel-item" href="#one!">
+                            <img src="images/express.png">
+                        </a>
+                        <a class="carousel-item" href="#one!">
+                                <img src="images/mongo.png">
+                            </a>
             <a class="carousel-item" href="#four!">
                 <img src="images/jquery.png">
             </a>
@@ -279,6 +344,11 @@
             $('.parallax').parallax();
 
             $('.carousel').carousel();
+
+            $(".modal-action").click(function () {
+                $('#modal1').modal('open');
+            })
+
 
 
         })
