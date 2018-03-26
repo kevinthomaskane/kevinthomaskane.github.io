@@ -4,4 +4,4 @@
 
 <p>If you are interested in working together, please send me an email at kevinthomaskane@gmail.com. </p>
 
-<p>[View the deployed site here](https://kevinthomaskane.github.io/)</p>
+[View the deployed site here](https://kevinthomaskane.github.io/)
