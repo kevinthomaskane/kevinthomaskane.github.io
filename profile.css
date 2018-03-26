@@ -10,15 +10,14 @@
 }
 
 .collection img{
-    height: 80px;
-    width: 110px;
+    height: 150px;
+    width: 210px;
     padding: 10px;
 }
 .collection{
     background-color: white;
     border: none;
 }
-
 
 
 .modal-content{
